@@ -1,0 +1,1 @@
+web:  npx prisma migrate reset --force && npm run start:prod
