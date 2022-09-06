@@ -6,7 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "prisma": {
-    "seed": "ts-node ./prisma/seeders/index.ts"
+    "seed": "node ./dist/prisma/seeders/index.js"
   },
   "scripts": {
     "prebuild": "rimraf dist",
